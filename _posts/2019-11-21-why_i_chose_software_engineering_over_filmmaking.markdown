@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Why I Chose Software Engineering Over Filmmaking."
-date:       2019-11-22 01:06:01 +0000
+date:       2019-11-21 20:06:02 -0500
 permalink:  why_i_chose_software_engineering_over_filmmaking
 ---
 
