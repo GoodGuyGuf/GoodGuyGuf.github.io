@@ -8,7 +8,7 @@ permalink:  entering_a_while_loop
 At the end of the first month, I have finished my CLI Project. It works 100%. The only thing left to do is to colorize it and maybe add some other fancy things. In the characters section of my CLI Menu, I have to enter a while loop so that the user doesn't get stuck in my program as it loops on for eternity. Here is my code:
 
 
-```
+
 def characters
          puts Scraper.all_characters
          input = " "
