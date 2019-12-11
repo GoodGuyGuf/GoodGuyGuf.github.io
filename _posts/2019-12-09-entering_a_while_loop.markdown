@@ -9,7 +9,7 @@ It is finally done and my programming devil fruit powers have awoken!
 
 Most people I know either do not know about One Piece or are afraid to start watching it.
 
-One Piece is the number 1 best selling manga in the world. It was turned into an anime show in the 90s and is still ongoing with 900+ episodes! It is crazy long. Online many people have been turned off by its giant episode count. VV
+One Piece is the number 1 best selling manga in the world. It was turned into an anime show in the 90s and is still ongoing with 900+ episodes! It is crazy long. Online, many people have been turned off by its giant episode count. VV
 
 ![](https://imgur.com/gallery/JJqCUQt)
 
