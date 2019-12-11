@@ -21,6 +21,8 @@ It will summarize what the show is about, show you how many episodes it has curr
 
 It was quite a process in getting it to work. It was difficult to connect a scraper class to a menu and making sure everything that I scraped was parsed correctly. Then I had to switch what my menu class was calling on so that it wouldn't connect to my scraper class but to my object classes 'character' and 'devilfruit'. Then I got to make it all pretty with the gem 'colorize'!
 
-My CLI could still be edited to be bigger. I only included the straw hat pirates, the three types of devil fruits, and what haki is. There are many more heroes and villains that I did not add, as well as a list of all of the devil fruits along with their users, and which users have haki abilities and the ones who do not.
+My CLI could still be edited to be bigger. I only included the straw hat pirates, the three types of devil fruits, and what haki is. There are many more heroes and villains that I did not add, as well as a list of all of the devil fruits along with their users, and which users have haki abilities and the ones who do not. Also, I do not include a list or description of its story arcs!
 
-[](https://youtu.be/wVsT9TPMPlE)
+(**SPOILER**)
+Here is a scene from my favorite One Piece arc: Enies Lobby -
+[(https://youtu.be/wVsT9TPMPlE)]
