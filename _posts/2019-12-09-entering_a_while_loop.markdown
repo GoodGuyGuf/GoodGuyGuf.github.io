@@ -11,11 +11,11 @@ Most people I know either do not know about One Piece or are afraid to start wat
 
 One Piece is the number 1 best selling manga in the world. It was turned into an anime show in the 90s and is still ongoing with 900+ episodes! It is crazy long. Online many people have been turned off by its giant episode count. VV
 
-![](https://imgur.com/gallery/JJqCUQt)
+![https://imgur.com/gallery/JJqCUQt]
 
 So I created a Command Line interface that introduces you to One Piece!
 
-![](https://imgur.com/gallery/w50i9nu)
+![https://imgur.com/gallery/w50i9nu]
 
 It will summarize what the show is about, show you how many episodes it has currently, give you a list and description of the main protagonists the Straw Hat Pirates, gives you a description of what Devil Fruits are and what Haki is as well as points you to websites that stream the show online.
 
