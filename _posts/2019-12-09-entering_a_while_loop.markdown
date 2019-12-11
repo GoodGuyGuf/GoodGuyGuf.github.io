@@ -1,39 +1,24 @@
 ---
 layout: post
-title:      "Entering a while loop"
+title:      "One Piece - My CLI Project"
 date:       2019-12-09 19:00:45 -0500
 permalink:  entering_a_while_loop
 ---
 
-At the end of the first month, I have finished my CLI Project. It works 100%. The only thing left to do is to colorize it and maybe add some other fancy things. In the characters section of my CLI Menu, I have to enter a while loop so that the user doesn't get stuck in my program as it loops on for eternity. Here is my code:
+It is finally done and my programming devil fruit powers have awoken!
 
+Most people I know either do not know about One Piece or are afraid to start watching it.
 
+One Piece is the number 1 best selling manga in the world. It was turned into an anime show in the 90s and is still ongoing with 900+ episodes! It is crazy long. Online many people have been turned off by its giant episode count. VV
 
-def characters
-         puts Scraper.all_characters
-         input = " "
-         while input != '0'
-         puts ""
-         puts "Hit a number from 1-10 to see a character bio!"
-         puts "If you would like to go back to the menu, type '0' or hit enter!"
-         input = gets.strip.to_i
+![](https://imgur.com/gallery/JJqCUQt)
 
-            if (1..Scraper.bios.length).include?(input)
-                bio = Scraper.bios[input - 1]
-                puts "#{bio}"
-            elsif input < 1 || input > 10
-                break
-            end
-        end
-    end
-```
+So I created a Command Line interface that introduces you to One Piece!
 
+![](https://imgur.com/gallery/w50i9nu)
 
-So what is happening here is that my characters method will now put out a list of characters from 'Scraper.all_characters', then it will say the input is equal to a string. 
+It will summarize what the show is about, show you how many episodes it has currently, give you a list and description of the main protagonists the Straw Hat Pirates, gives you a description of what Devil Fruits are and what Haki is as well as points you to websites that stream the show online.
 
-While that input is not equal to 0, my loop will run. Now the user will be able to choose a character from 1 to 10, and they can also repeatedly view characters. 
+It was quite a process in getting it to work. It was difficult to connect a scraper class to a menu and making sure everything that I scraped was parsed correctly. Then I had to switch what my menu class was calling on so that it wouldn't connect to my scraper class but to my object classes 'character' and 'devilfruit'. Then I got to make it all pretty with the gem 'colorize'!
 
-If their input is less than 1 or if it is greater than 10, it will 'break' the loop and return to the main menu. Also if the user decides to hit any other random key, it will return to the main menu as well.
-
-
-
+My CLI could still be edited to be bigger. I only included the straw hat pirates, the three types of devil fruits, and what haki is. There are many more heroes and villains that I did not add, as well as a list of all of the devil fruits along with their users, and which users have haki abilities and the ones who do not.
