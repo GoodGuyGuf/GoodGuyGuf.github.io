@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "The Fixed Mindset"
-date:       2019-12-26 22:29:45 +0000
+date:       2019-12-26 17:29:46 -0500
 permalink:  the_fixed_mindset
 ---
 
@@ -10,7 +10,7 @@ permalink:  the_fixed_mindset
 
 [brainpickings](https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
 
-![Imgur](https://imgur.com/gallery/S83hwGP)
+![Imgur](https://imgur.com/vDkd2yx)
 
 I knew joining the software engineering online full time track at Flatiron school would not be an easy task for me. So far it has been difficult overcoming my own irrational beliefs towards learning. I was not educated to accept failure; I was educated to accept my limits as they were: set in stone. 
 
