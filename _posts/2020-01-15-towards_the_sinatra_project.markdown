@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Towards the Sinatra Project"
-date:       2020-01-16 00:07:52 +0000
+title:      "The Sinatra Project"
+date:       2020-01-15 19:07:53 -0500
 permalink:  towards_the_sinatra_project
 ---
 
