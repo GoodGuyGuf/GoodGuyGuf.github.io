@@ -38,9 +38,13 @@ The delete button is mapped to the user's favorite store page:
 
 When pressed, the browser will refresh the page to show your store is now deleted from your list.
 
-But onto the more confusing section: Connecting the reviews and stores controller.
+***But onto the more confusing section***: Connecting the reviews and stores controller.
 
-My stores controller contains the route that contains both create a review form and favoriting the store form on one page.
+My stores controller has that route that contains both the create a review form and favoriting the store form on one page. 
+
+Here is a picture of that page for reference:
+
+![imgur](https://i.imgur.com/wejp3Az.png)
 
 In my stores controller: 
 
