@@ -84,4 +84,6 @@ post "/my-reviews/:id" do
 
 The way this is set up is that: erb :'/stores/show_individual_store' will send the instance variable @store.id to the post  "/my-reviews/:id" route. It may send it to "/my-reviews/<%=@store.id%>",  but really all of the information being sent is the review with its attributes along with the store id.
 
+The params[:id] matches what was in the  "/my-reviews/<%=@store.id%>". The individual review has its own id, but it is not saved until **after** the store_id is equal to the params[:id].
+
 The route takes the new review params and if it is valid, it will take the sent store id and match it to the @store.id. It will connect the user_id to the user who is in session and then save the review. Finally, they will be redirected to "/my-reviews/#{@user_review.id}" Which will have the correct review with its own unique id.
