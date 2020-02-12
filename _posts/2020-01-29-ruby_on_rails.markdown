@@ -21,8 +21,8 @@ My models look like this (Other pieces/validations are removed here for focus on
 ```
 class User < ActiveRecord::Base
 has_many :funds
-has_many :funded_pitches, through: :funds, source: :pitch
-has_many :pitches
+  has_many :funded_pitches, through: :funds, source: :pitch
+  has_many :pitches
 end
 ```
 
