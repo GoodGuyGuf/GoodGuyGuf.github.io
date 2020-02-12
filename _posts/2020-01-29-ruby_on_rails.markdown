@@ -14,7 +14,7 @@ One of the more difficult things was setting up the migration table for this pro
 
 [The ODIN Project was the biggest help in making sense of the associations.](https://www.theodinproject.com/courses/ruby-on-rails/lessons/active-record-associations)
 
-[Along with the documentation for Bi-directional and Polymorphic Associations.](https://www.theodinproject.com/courses/ruby-on-rails/lessons/active-record-associations)
+[Along with the documentation for Bi-directional and Polymorphic Associations.](https://guides.rubyonrails.org/association_basics.html#bi-directional-associations)
 
 My models look like this (Other pieces/validations are removed here for focus on associations):
 
