@@ -30,16 +30,16 @@ Now a user can fund many pitches, through the table funds and its source will be
 
 ```
 class Fund < ActiveRecord::Base
-    belongs_to :user
-	    belongs_to :pitch
+  belongs_to :user
+	  belongs_to :pitch
 end
 ```
 
 ```
 class Pitch < ActiveRecord::Base
-    has_many :funds
-	    has_many :pitch_funders, through: :funds, source: :user
-	    belongs_to :user
+  has_many :funds
+	  has_many :pitch_funders, through: :funds, source: :user
+	  belongs_to :user
 end
 ```
 
