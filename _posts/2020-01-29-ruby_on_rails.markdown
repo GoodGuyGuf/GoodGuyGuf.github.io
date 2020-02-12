@@ -20,7 +20,7 @@ My models look like this (Other pieces/validations are removed here for focus on
 
 ```
 class User < ActiveRecord::Base
-  has_many :funds
+    has_many :funds
 	has_many :funded_pitches, through: :funds, source: :pitch
 	has_many :pitches
 end
@@ -30,14 +30,14 @@ Now a user can fund many pitches, through the table funds and its source will be
 
 ```
 class Fund < ActiveRecord::Base
-  belongs_to :user
+    belongs_to :user
 	belongs_to :pitch
 end
 ```
 
 ```
 class Pitch < ActiveRecord::Base
-  has_many :funds
+    has_many :funds
 	has_many :pitch_funders, through: :funds, source: :user
 	belongs_to :user
 end
