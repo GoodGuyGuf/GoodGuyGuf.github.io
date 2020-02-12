@@ -66,14 +66,15 @@ class CreatePitches < ActiveRecord::Migration[6.0]
   def change
     create_table :pitches do |t|
       t.string :title
-			t.string :genre
       t.string :summary
+      t.string :genre
       t.string :video_link
       t.integer :funding_goal
       t.belongs_to :user
     end
   end
 end
+
 ```
 
 ```
