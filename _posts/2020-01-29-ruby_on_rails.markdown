@@ -6,7 +6,7 @@ permalink:  ruby_on_rails
 ---
 
 
-The Sinatra Project flew by me fast. I spent the whole project week doing 14 hour programming sessions. Now I am blown away by rails. This month's curriculum for Rails is very big. There are many things that make doing what you did in Sinatra easier, but there are also  many more feautres. They say that the more grounded you are in Sinatra that you will learn Rails easier and I agree. I'm loving these lessons and I'm loving the process. I am 100% a project learner and now that I am in midweek into the project, everything is becoming very clear. 
+This month's curriculum for Rails is very big. There are many things that make doing what you did in Sinatra easier, but there are way more features. They say that the more grounded you are in Sinatra that you will learn Rails easier and I agree. I'm loving these lessons and I'm loving the process. I am 100% a project learner and now that I am in midweek into the project, everything is becoming very clear. 
 
 My Project is called 'FilmPitch': An app similar to KickStarter but only for filmmakers. Users can sign up, login, create their pitch, upload their scripts and let others fund their project. If a project is done they can upload their full finished films.
 
