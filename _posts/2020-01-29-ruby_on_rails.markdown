@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Ruby on Rails - FilmPitch"
+title:      "Ruby on Rails - FilmPitch: Associations"
 date:       2020-01-29 01:06:10 -0500
 permalink:  ruby_on_rails
 ---
