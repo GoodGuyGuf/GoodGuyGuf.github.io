@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "The Sinatra Project: Passing Data through routes"
+title:      "The Sinatra Project: Passing Data Through Routes"
 date:       2020-01-15 19:07:53 -0500
 permalink:  towards_the_sinatra_project
 ---
