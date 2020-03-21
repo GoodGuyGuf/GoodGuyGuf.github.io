@@ -12,7 +12,7 @@ But there were a few sections I had a bit of a tough time remembering: scope and
 
 ***What is Scope?***
 
-**Scope is defined where declared variables and methods are available within our code.
+**Scope is defined where declared variables and methods are available within our code.**
 
 The Google definition of scope is: 
 *"In computer programming, the scope of a name binding—an association of a name to an entity, such as a variable—is the region of a computer program where the binding is valid: where the name can be used to refer to the entity."*
