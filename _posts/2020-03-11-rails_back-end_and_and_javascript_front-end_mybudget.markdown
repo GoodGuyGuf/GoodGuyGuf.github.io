@@ -20,7 +20,7 @@ The Google definition of scope is:
 
 ***Global Scope:***
 
-Variables and functions declared in the global scope are accessible everywhere. If a variable or function is not declared inside a function or block,* it's in the global scope.* In a newly made JavaScript file, you are in the global scope where nothing is defined yet. Variable or function declarations in this scope are accessible everywhere.
+Variables and functions declared in the global scope are accessible everywhere. If a variable or function is not declared inside a function or block,*it's in the global scope.* In a newly made JavaScript file, you are in the global scope where nothing is defined yet. Variable or function declarations in this scope are accessible everywhere.
 
 ***Function Scope:***
 
