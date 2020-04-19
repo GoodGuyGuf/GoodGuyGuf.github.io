@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "React.js: State & Component LifeCycle"
-date:       2020-03-26 16:16:11 +0000
+date:       2020-03-26 12:16:12 -0400
 permalink:  react_js_state_and_component_lifecycle
 ---
 
@@ -95,3 +95,14 @@ During the unmounting phase:
 1. `componentWillUnmount` is called.
 
 `componentWillUnmount` clears anything set in `componentDidMount`.
+
+In my final project, I was able to use `componentDidMount` for making a fetch requests at the top level of my application by using props connected by redux:
+
+```
+componentDidMount(){
+    this.props.fetchPosts()
+    this.props.fetchUsers()
+  }
+```
+
+Both would be fetched and my children components would have all the necessary info while also avoiding potential re-renders that would happen if my children components did these fetches instead.
